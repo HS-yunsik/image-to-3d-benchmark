@@ -1,0 +1,10 @@
+# components_method_validation
+Model               Verts    Faces   split()  split_s       lwt    lwt_s  match
+------------------------------------------------------------------------------------------
+Hunyuan3D-2         26721    40000       559     1.20       559     0.01     OK
+Hunyuan3D-2.1       27433    40000       699     7.79       699     0.01     OK
+TRELLIS             30516    40738      1050     2.57      1050     0.01     OK
+InstantMesh         75858   151556        57     0.16        57     0.01     OK
+Hi3DGen            656946  1313828        18     1.48        18     0.13     OK
+
+Verdict: 0 mismatches out of 5

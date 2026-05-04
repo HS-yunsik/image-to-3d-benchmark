@@ -43,7 +43,50 @@ from __future__ import annotations
 from collections import Counter
 from typing import Any
 
+import numpy as np
 import trimesh
+from scipy.sparse import csr_matrix
+from scipy.sparse.csgraph import connected_components as _scipy_cc
+
+
+def _count_components_lightweight(mesh: trimesh.Trimesh) -> int:
+    """Count connected components without materializing per-piece Trimeshes.
+
+    mesh.split() builds one Trimesh per piece, which on shattered meshes
+    (e.g. MeshFormer with ~98K components) costs many GB of RAM. We get the
+    same count by running a scipy sparse-CC on the **face-adjacency graph**:
+
+        nodes = faces
+        edges = pairs of faces that share an edge (mesh.face_adjacency)
+
+    This matches `mesh.split(only_watertight=False)` exactly because that is
+    precisely the graph trimesh.split walks internally. Memory cost is
+    O(n_faces + n_face_adjacency) which is two int32 arrays -- trivial.
+
+    Returns 0 for an empty mesh and 1 if the face-adjacency graph is empty
+    but at least one face exists (single-face mesh).
+    """
+    n_faces = 0 if mesh.faces is None else len(mesh.faces)
+    if n_faces == 0:
+        return 0
+
+    try:
+        adj = mesh.face_adjacency  # shape (n_pairs, 2), int
+    except Exception:
+        adj = None
+
+    if adj is None or len(adj) == 0:
+        return n_faces  # all faces are isolated islands
+
+    rows = np.concatenate([adj[:, 0], adj[:, 1]])
+    cols = np.concatenate([adj[:, 1], adj[:, 0]])
+    data = np.ones(len(rows), dtype=bool)
+    graph = csr_matrix(
+        (data, (rows, cols)),
+        shape=(n_faces, n_faces),
+    )
+    n_cc, _ = _scipy_cc(graph, directed=False)
+    return int(n_cc)
 
 
 EMPTY = {
@@ -82,11 +125,7 @@ def compute(mesh: trimesh.Trimesh) -> dict[str, Any]:
         boundary_r = n_boundary / n_unique
         nonmanifold_r = n_nonman / n_unique
 
-    try:
-        components = mesh.split(only_watertight=False)
-        n_components = len(components) if components is not None else 1
-    except Exception:
-        n_components = 1
+    n_components = _count_components_lightweight(mesh)
 
     return {
         "watertight": watertight,

@@ -14,6 +14,7 @@ The single entry point downstream code should use is `compute_all(mesh_path)`.
 """
 from __future__ import annotations
 
+import gc
 from pathlib import Path
 from typing import Any
 
@@ -101,20 +102,28 @@ def compute_all(
     # Run each metric module independently; record per-module errors but
     # keep going so downstream code always sees the same schema.
     errors: list[str] = []
-    for module, keys in (
-        (geometry, _GEO_KEYS),
-        (topology, _TOP_KEYS),
-        (uv, _UV_KEYS),
-        (pbr, _PBR_KEYS),
-        (scale, _SCL_KEYS),
-    ):
-        try:
-            res = module.compute(mesh)
-            for k in keys:
-                if k in res:
-                    out[k] = res[k]
-        except Exception as e:
-            errors.append(f"{module.__name__}: {type(e).__name__}: {e}")
+    try:
+        for module, keys in (
+            (geometry, _GEO_KEYS),
+            (topology, _TOP_KEYS),
+            (uv, _UV_KEYS),
+            (pbr, _PBR_KEYS),
+            (scale, _SCL_KEYS),
+        ):
+            try:
+                res = module.compute(mesh)
+                for k in keys:
+                    if k in res:
+                        out[k] = res[k]
+            except Exception as e:
+                errors.append(f"{module.__name__}: {type(e).__name__}: {e}")
+    finally:
+        # Drop the trimesh.Trimesh and its underlying numpy arrays /
+        # PIL images / cached face_adjacency before returning. Critical
+        # when the caller iterates over thousands of meshes -- otherwise
+        # peak RSS grows until the loop completes and the OS reclaims it.
+        del mesh
+        gc.collect()
 
     if errors:
         out["error"] = " | ".join(errors)[:500]

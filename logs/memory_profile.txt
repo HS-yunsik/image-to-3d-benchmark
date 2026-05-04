@@ -1,0 +1,17 @@
+# memory_profile  (compute_all)
+baseline rss = 90 MB
+
+Phase-0 small meshes:
+  Hunyuan3D-2                size=   2.31MB  V=  26721  F=   40000  CC=   559  t= 0.13s  rss before/peak/after =    90/   94/   94MB  leak=+4MB
+  Hunyuan3D-2.1              size=   5.23MB  V=  27433  F=   40000  CC=   699  t= 0.18s  rss before/peak/after =    94/   96/   96MB  leak=+2MB
+  TRELLIS                    size=   2.35MB  V=  30516  F=   40738  CC=  1050  t= 0.12s  rss before/peak/after =    96/   96/   96MB  leak=+0MB
+  InstantMesh                size=   2.89MB  V=  75858  F=  151556  CC=    57  t= 0.37s  rss before/peak/after =    96/   99/   99MB  leak=+3MB
+  Hi3DGen                    size=  30.07MB  V= 656946  F= 1313828  CC=    18  t= 3.41s  rss before/peak/after =    99/  100/  100MB  leak=+1MB
+
+Largest mesh per heavy model:
+  MeshFormer/largest         size=  18.97MB  V= 452167  F=  150723  CC=150722  t= 0.47s  rss before/peak/after =   100/  102/  102MB  leak=+2MB
+  Hi3DGen/largest            size=  55.61MB  V=1214576  F= 2429976  CC=    47  t= 6.79s  rss before/peak/after =   102/  104/  104MB  leak=+1MB
+  TripoSG                    (not downloaded yet)
+  Meshy-6/largest            size=  26.70MB  V= 318399  F=  298119  CC= 34161  t= 0.91s  rss before/peak/after =   104/  105/  105MB  leak=+1MB
+
+final rss = 105 MB
