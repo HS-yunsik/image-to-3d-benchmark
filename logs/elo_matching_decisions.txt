@@ -1,0 +1,58 @@
+# ELO matching decisions
+# Generated: 2026-05-04 by user, recorded by Claude Code
+
+## Source
+- 19 ranked models from 3D Arena Table 1 / leaderboard (with vote counts and win-rate)
+- 4 post-paper models added since the 2025-05-30 snapshot (no ELO yet)
+
+## Inventory <-> ELO mapping decisions
+
+[OK] Direct name match (no ambiguity)
+    TRELLIS-3DGS    -> elo rank 2  (excluded from our analysis: splat)
+    Strawberrry     -> elo rank 3  (anonymous=True)
+    Strawb3rry      -> elo rank 4  (anonymous=True)
+    TRELLIS         -> elo rank 5
+    Zaohaowu3D      -> elo rank 6
+    Hunyuan3D-2     -> elo rank 7
+    InstantMesh     -> elo rank 8
+    Unique3D        -> elo rank 10
+    Hi3DGen         -> elo rank 11
+    MeshFormer      -> elo rank 12
+    SF3D            -> elo rank 13
+    Real3D          -> elo rank 14
+    SPAR3D          -> elo rank 15
+    LGM             -> elo rank 16  (excluded: splat)
+    TripoSR         -> elo rank 17
+    IM-MA           -> elo rank 18
+    3DTopia-XL      -> elo rank 19
+
+[DECISION] "Meshy" in leaderboard -> Meshy-5 in our inventory
+    The leaderboard entry "Meshy" (with rank 9, ELO 1243) appears in the
+    paper-era snapshot. Two Meshy models exist in the dataset folder:
+      - Meshy-5 (paper-era, dataset rank 9)
+      - Meshy-6 (post-paper, no ELO yet)
+    The leaderboard's "Meshy" is the version that was available at
+    snapshot time (= Meshy-5). Meshy-6 is therefore post_paper=True.
+
+[POST-PAPER] No ELO yet -- analysis must flag separately
+    Hunyuan3D-2.1   (post-paper, sibling of Hunyuan3D-2)
+    TRELLIS.2-4B    (post-paper, sibling of TRELLIS)
+    Meshy-6         (post-paper, sibling of Meshy-5)
+    TripoSG         (post-paper, distinct model from TripoSR)
+
+[NOT-IN-INVENTORY] "CSM/Cube" in leaderboard -> no folder in 3d-arena dataset
+    The #1 leaderboard entry "CSM/Cube" is not present in the
+    3d-arena/3d-arena dataset under outputs/. It is also a Splat model
+    (.ply or .splat output), so even if it were present we would have
+    excluded it from mesh-based metric analysis.
+    Action: keep in elo_scores.csv for reference; will not appear in
+    the metric correlation table.
+
+## Format-based exclusions (already applied at Step 1 inventory)
+    Excluded from mesh metrics: TRELLIS-3DGS, LGM, CSM/Cube (splat),
+                                404_GEN, SAM-3D-Objects-3DGS, PicGen3D.
+
+## Anonymous submitter flag
+    Strawberrry, Strawb3rry are presumed anonymous submissions per
+    3D Arena leaderboard convention (similar names, distinct entries).
+    Manifest already carries an `anonymous` column for these.

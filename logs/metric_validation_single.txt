@@ -1,0 +1,91 @@
+# Single-mesh metric validation
+# Generated: 2026-05-04T20:45:40
+# Target:    C:\Users\HP\3d-arena-eval\meshes\outputs\Hunyuan3D-2\A_cartoon_house_with_red_roof.glb
+# Size (KB): 2360.46
+
+==============================================================================
+OUR METRICS (metrics.{geometry,topology,uv,pbr})
+==============================================================================
+  watertight                     = False
+  manifold_edge_ratio            = 0.8073
+  boundary_edge_ratio            = 0.1927
+  nonmanifold_edge_ratio         = 0.0
+  connected_components           = 559
+  vertex_count                   = 26721
+  face_count                     = 40000
+  triangle_ratio                 = 1.0
+  non_triangle_ratio             = 0.0
+  has_uv                         = True
+  uv_bbox_efficiency             = 0.9991
+  uv_packed_area                 = 0.6958
+  has_texture                    = True
+  pbr_channel_count              = 1
+  texture_resolution             = 1024
+
+==============================================================================
+TRIMESH BUILT-INS (alt views of the same metrics)
+==============================================================================
+  vertex_count (len(.vertices))     = 26721
+  face_count   (len(.faces))        = 40000
+  is_watertight                     = False
+  is_winding_consistent             = True
+  unique edges                      = 66397
+  edges shared by 1 face (boundary) = 12794 (0.1927)
+  edges shared by 2 faces (manifold)= 53603 (0.8073)
+  edges shared by >=3 (non-manifold)= 0 (0.0000)
+  sum of three ratios               = 1.0000  (expected 1.0)
+  components (all pieces)           = 559
+  components (watertight only)      = 0
+  uv array length                   = 26721
+  uv min (u,v)                      = [0.0, 0.0]
+  uv max (u,v)                      = [0.9995, 0.9995]
+
+==============================================================================
+PYGLTFLIB (raw glTF inspection)
+==============================================================================
+  meshes=1 materials=1 textures=1 images=1
+  material[0] name=None
+    .baseColorTexture -> texture[0]
+  PBR channels found (alt)          = ['baseColorTexture']
+  has TEXCOORD_0                    = True
+  image sizes                       = [('image/png', [1024, 1024])]
+  max image dimension               = 1024
+
+==============================================================================
+PYMESHLAB (independent computation)
+==============================================================================
+  vertex_number()                   = 26721
+  face_number()                     = 40000
+  topo.boundary_edges           = 12794
+  topo.connected_components_number = 559
+  topo.edges_number             = 66397
+  topo.faces_number             = 40000
+  topo.genus                    = -1
+  topo.incident_faces_on_non_two_manifold_edges = 0
+  topo.incident_faces_on_non_two_manifold_vertices = 477
+  topo.is_mesh_two_manifold     = False
+  topo.non_two_manifold_edges   = 0
+  topo.non_two_manifold_vertices = 136
+  topo.number_holes             = -1
+  topo.unreferenced_vertices    = 0
+  topo.vertices_number          = 26721
+  geo.surface_area             = 21.498348236083984
+  geo.shell_barycenter         = [-0.00571907 -0.27258899 -0.00043833]
+
+==============================================================================
+RECONCILIATION
+==============================================================================
+  [OK  ] vertex_count                        ours=26721 alt=26721
+  [OK  ] face_count                          ours=40000 alt=40000
+  [OK  ] watertight                          ours=False alt=False
+  [OK  ] manifold_edge_ratio                 ours=0.8073 alt=0.8073
+  [OK  ] boundary_edge_ratio                 ours=0.1927 alt=0.1927
+  [OK  ] nonmanifold_edge_ratio              ours=0.0 alt=0.0
+  [OK  ] connected_components                ours=559 alt=559
+  [OK  ] vertex_count vs pymeshlab           ours=26721 alt=26721
+  [OK  ] face_count vs pymeshlab             ours=40000 alt=40000
+  pymeshlab pml_boundary_edges = 12794
+  [OK  ] components vs pml_connected_components_number ours=559 alt=559
+  [OK  ] has_uv                              ours=True alt=True
+  [OK  ] pbr_channel_count                   ours=1 alt=1
+  [OK  ] texture_resolution                  ours=1024 alt=1024

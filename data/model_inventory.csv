@@ -1,0 +1,26 @@
+model,classification,n_files_total,n_mesh_files,ext_distribution,avg_mesh_size_mb,est_dl_mb_at_50
+3DTopia-XL,mesh,204,101,".png=102, .glb=101, .json=1",2.84,142.0
+404_GEN,splat,205,0,".png=102, .ply=101, .zip=1, .json=1",0.0,0.0
+Hi3DGen,mesh,204,101,".png=102, .glb=101, .json=1",16.39,819.5
+Hunyuan3D-2,mesh,204,101,".png=102, .glb=101, .json=1",2.37,118.3
+Hunyuan3D-2.1,mesh,204,101,".png=102, .glb=101, .json=1",5.22,261.1
+IM-MA,mesh,204,101,".png=102, .obj=101, .json=1",0.03,1.4
+InstantMesh,mesh,204,101,".png=102, .glb=101, .json=1",1.76,88.1
+LGM,splat,205,0,".png=103, .ply=101, .json=1",0.0,0.0
+MeshFormer,mesh,188,93,".png=94, .glb=93, .json=1",12.93,646.4
+Meshy-5,mesh,202,100,".png=101, .glb=100, .json=1",2.72,136.0
+Meshy-6,mesh,204,101,".png=102, .glb=101, .json=1",18.68,933.8
+PicGen3D,splat,204,0,".png=102, .splat=101, .json=1",0.0,0.0
+Real3D,mesh,204,101,".png=102, .glb=101, .json=1",4.13,206.4
+SAM-3D-Objects-3DGS,splat,204,0,".png=102, .ply=101, .json=1",0.0,0.0
+SF3D,mesh,204,101,".png=102, .glb=101, .json=1",0.99,49.5
+SPAR3D,mesh,205,101,".png=103, .glb=101, .json=1",1.32,65.9
+Strawb3rry,mesh,204,101,".png=102, .glb=101, .json=1",7.53,376.6
+Strawberrry,mesh,204,101,".png=102, .glb=101, .json=1",3.39,169.3
+TRELLIS,mesh,202,100,".png=101, .glb=100, .json=1",1.74,87.0
+TRELLIS-3DGS,splat,204,0,".png=102, .splat=101, .json=1",0.0,0.0
+TRELLIS.2-4B,mesh,204,101,".png=102, .glb=101, .json=1",11.8,590.1
+TripoSG,mesh,204,101,".png=102, .glb=101, .json=1",27.86,1392.8
+TripoSR,mesh,204,101,".png=102, .glb=101, .json=1",1.33,66.6
+Unique3D,mesh,204,101,".png=102, .glb=101, .json=1",13.4,669.9
+Zaohaowu3D,mesh,204,101,".png=102, .glb=101, .json=1",16.9,845.0

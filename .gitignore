@@ -1,0 +1,24 @@
+# Bulk downloaded mesh data (managed by HF cache)
+meshes/
+
+# Local IDE / Claude Code workspace settings
+.claude/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Output figures kept under output/ are tracked; intermediate plots ignored
+output/scratch/
+
+# Background-task install logs (regenerable)
+logs/pymeshlab_install.log
