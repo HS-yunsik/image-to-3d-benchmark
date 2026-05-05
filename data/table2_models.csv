@@ -1,0 +1,21 @@
+order,model,source,elo,mesh_count,note
+1,Strawberrry,Experimental,1382,100,anonymous (3D Arena)
+2,Strawb3rry,Experimental,1370,100,anonymous (3D Arena)
+3,TRELLIS,Open-source,1306,100,Microsoft
+4,Zaohaowu3D,Commercial,1302,100,造好屋3D platform
+5,Hunyuan3D-2,Open-source,1298,100,Tencent
+6,InstantMesh,Open-source,1278,100,Tencent ARC
+7,Meshy-5,Commercial,1243,100,Meshy.ai
+8,Unique3D,Open-source,1230,100,
+9,Hi3DGen,Open-source,1207,100,
+10,MeshFormer,Open-source,1192,93,source dataset has 93 only
+11,SF3D,Open-source,1190,100,Stability AI
+12,Real3D,Open-source,1158,100,
+13,SPAR3D,Open-source,1144,100,Stability AI
+14,TripoSR,Open-source,1089,100,Stability AI + Tripo
+15,IM-MA,Experimental,1016,100,
+16,3DTopia-XL,Open-source,1000,100,
+17,Hunyuan3D-2.1,Open-source,—,100,post-paper
+18,TRELLIS.2-4B,Open-source,—,100,post-paper
+19,Meshy-6,Commercial,—,100,post-paper / Meshy.ai
+20,TripoSG,Open-source,—,100,post-paper / Tripo
