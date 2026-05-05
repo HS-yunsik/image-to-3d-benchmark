@@ -1,0 +1,7 @@
+manifest rows=100  already done=1793  todo=100
+psutil available: True
+
+Done: ok=100 fail=0 slow(>30.0s)=0 elapsed=3.0min rate=0.56 meshes/s
+Results: C:\Users\HP\3d-arena-eval\data\all_metrics.csv
+Errors:  C:\Users\HP\3d-arena-eval\logs\metric_errors.csv
+Memlog:  C:\Users\HP\3d-arena-eval\logs\run_metrics_memory.log

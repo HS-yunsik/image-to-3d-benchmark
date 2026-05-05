@@ -113,15 +113,21 @@ def mem_snapshot() -> tuple[float, float, float]:
     return rss, vm.percent, vm.available / (1024 ** 3)
 
 
-def load_manifest(only: list[str] | None = None) -> list[dict]:
+def load_manifest(
+    only: list[str] | None = None,
+    exclude: list[str] | None = None,
+) -> list[dict]:
     if not MANIFEST.exists():
         print(f"ERROR: {MANIFEST} not found. Run download_all.py first.",
               file=sys.stderr)
         sys.exit(1)
+    exclude_set = set(exclude) if exclude else set()
     rows: list[dict] = []
     with MANIFEST.open(encoding="utf-8") as fh:
         for r in csv.DictReader(fh):
             if only and r["model"] not in only:
+                continue
+            if r["model"] in exclude_set:
                 continue
             rows.append(r)
     return rows
@@ -131,11 +137,13 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", nargs="*", default=None,
                     help="Restrict to these models")
+    ap.add_argument("--exclude", nargs="*", default=None,
+                    help="Skip these models (e.g. incomplete downloads)")
     ap.add_argument("--limit", type=int, default=None,
                     help="Cap total meshes (debugging)")
     args = ap.parse_args()
 
-    rows = load_manifest(args.only)
+    rows = load_manifest(args.only, args.exclude)
     if not rows:
         print("No manifest rows match.", file=sys.stderr)
         return 1

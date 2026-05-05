@@ -1,0 +1,434 @@
+[20:29:56] === Download session START | models=20 | cap=100 ===
+[20:29:56] 
+[1/20] === 3DTopia-XL ===
+[20:29:56] >>> 3DTopia-XL: 100 files to attempt
+[20:30:22]     3DTopia-XL: 10/100 ok=10 fail=0 size=27.1 MB (1.0 MB/s)
+[20:30:48]     3DTopia-XL: 20/100 ok=20 fail=0 size=55.3 MB (1.1 MB/s)
+[20:31:15]     3DTopia-XL: 30/100 ok=30 fail=0 size=82.0 MB (1.0 MB/s)
+[20:31:42]     3DTopia-XL: 40/100 ok=40 fail=0 size=109.3 MB (1.0 MB/s)
+[20:32:07]     3DTopia-XL: 50/100 ok=50 fail=0 size=133.3 MB (1.0 MB/s)
+[20:32:32]     3DTopia-XL: 60/100 ok=60 fail=0 size=158.3 MB (1.0 MB/s)
+[20:32:58]     3DTopia-XL: 70/100 ok=70 fail=0 size=186.8 MB (1.0 MB/s)
+[20:33:24]     3DTopia-XL: 80/100 ok=80 fail=0 size=213.3 MB (1.0 MB/s)
+[20:33:51]     3DTopia-XL: 90/100 ok=90 fail=0 size=240.7 MB (1.0 MB/s)
+[20:34:16]     3DTopia-XL: 100/100 ok=100 fail=0 size=270.3 MB (1.0 MB/s)
+[20:34:16] <<< 3DTopia-XL done: ok=100 fail=0 total=270.3 MB
+[20:34:16]   cumulative: ok=100 fail=0 size=270.3 MB elapsed=4.3min
+[20:34:16] 
+[2/20] === Hi3DGen ===
+[20:34:16] >>> Hi3DGen [LARGE]: 100 files to attempt
+[20:34:18]     Hi3DGen: 5/100 ok=5 fail=0 size=110.8 MB (74.8 MB/s)
+[20:34:31]     Hi3DGen: 10/100 ok=10 fail=0 size=175.7 MB (11.8 MB/s)
+[20:34:46]     Hi3DGen: 15/100 ok=15 fail=0 size=262.7 MB (8.7 MB/s)
+[20:35:01]     Hi3DGen: 20/100 ok=20 fail=0 size=321.0 MB (7.2 MB/s)
+[20:35:15]     Hi3DGen: 25/100 ok=25 fail=0 size=385.1 MB (6.5 MB/s)
+[20:35:30]     Hi3DGen: 30/100 ok=30 fail=0 size=467.4 MB (6.3 MB/s)
+[20:35:44]     Hi3DGen: 35/100 ok=35 fail=0 size=523.6 MB (5.9 MB/s)
+[20:35:59]     Hi3DGen: 40/100 ok=40 fail=0 size=576.1 MB (5.6 MB/s)
+[20:36:13]     Hi3DGen: 45/100 ok=45 fail=0 size=644.1 MB (5.5 MB/s)
+[20:36:28]     Hi3DGen: 50/100 ok=50 fail=0 size=739.8 MB (5.6 MB/s)
+[20:36:42]     Hi3DGen: 55/100 ok=55 fail=0 size=797.4 MB (5.5 MB/s)
+[20:36:58]     Hi3DGen: 60/100 ok=60 fail=0 size=881.6 MB (5.5 MB/s)
+[20:37:13]     Hi3DGen: 65/100 ok=65 fail=0 size=972.2 MB (5.5 MB/s)
+[20:37:28]     Hi3DGen: 70/100 ok=70 fail=0 size=1.02 GB (5.5 MB/s)
+[20:37:42]     Hi3DGen: 75/100 ok=75 fail=0 size=1.09 GB (5.4 MB/s)
+[20:37:57]     Hi3DGen: 80/100 ok=80 fail=0 size=1.18 GB (5.5 MB/s)
+[20:38:13]     Hi3DGen: 85/100 ok=85 fail=0 size=1.26 GB (5.4 MB/s)
+[20:38:28]     Hi3DGen: 90/100 ok=90 fail=0 size=1.33 GB (5.4 MB/s)
+[20:38:44]     Hi3DGen: 95/100 ok=95 fail=0 size=1.42 GB (5.4 MB/s)
+[20:39:00]     Hi3DGen: 100/100 ok=100 fail=0 size=1.53 GB (5.5 MB/s)
+[20:39:00] <<< Hi3DGen done: ok=100 fail=0 total=1.53 GB
+[20:39:00]   cumulative: ok=200 fail=0 size=1.79 GB elapsed=9.1min
+[20:39:00] 
+[3/20] === Hunyuan3D-2 ===
+[20:39:00] >>> Hunyuan3D-2: 100 files to attempt
+[20:39:14]     Hunyuan3D-2: 10/100 ok=10 fail=0 size=24.3 MB (1.7 MB/s)
+[20:39:39]     Hunyuan3D-2: 20/100 ok=20 fail=0 size=46.3 MB (1.2 MB/s)
+[20:40:03]     Hunyuan3D-2: 30/100 ok=30 fail=0 size=68.3 MB (1.1 MB/s)
+[20:40:30]     Hunyuan3D-2: 40/100 ok=40 fail=0 size=90.4 MB (1.0 MB/s)
+[20:40:54]     Hunyuan3D-2: 50/100 ok=50 fail=0 size=113.7 MB (1.0 MB/s)
+[20:41:16]     Hunyuan3D-2: 60/100 ok=60 fail=0 size=136.6 MB (1.0 MB/s)
+[20:41:41]     Hunyuan3D-2: 70/100 ok=70 fail=0 size=159.2 MB (1.0 MB/s)
+[20:42:06]     Hunyuan3D-2: 80/100 ok=80 fail=0 size=182.1 MB (1.0 MB/s)
+[20:42:28]     Hunyuan3D-2: 90/100 ok=90 fail=0 size=205.4 MB (1.0 MB/s)
+[20:42:48]     Hunyuan3D-2: 100/100 ok=100 fail=0 size=225.8 MB (1.0 MB/s)
+[20:42:48] <<< Hunyuan3D-2 done: ok=100 fail=0 total=225.8 MB
+[20:42:48]   cumulative: ok=300 fail=0 size=2.01 GB elapsed=12.9min
+[20:42:48] 
+[4/20] === Hunyuan3D-2.1 ===
+[20:42:48] >>> Hunyuan3D-2.1: 100 files to attempt
+[20:43:04]     Hunyuan3D-2.1: 10/100 ok=10 fail=0 size=56.1 MB (3.7 MB/s)
+[20:43:29]     Hunyuan3D-2.1: 20/100 ok=20 fail=0 size=98.0 MB (2.4 MB/s)
+[20:43:55]     Hunyuan3D-2.1: 30/100 ok=30 fail=0 size=145.9 MB (2.2 MB/s)
+[20:44:19]     Hunyuan3D-2.1: 40/100 ok=40 fail=0 size=197.4 MB (2.2 MB/s)
+[20:44:46]     Hunyuan3D-2.1: 50/100 ok=50 fail=0 size=248.6 MB (2.1 MB/s)
+[20:45:13]     Hunyuan3D-2.1: 60/100 ok=60 fail=0 size=300.2 MB (2.1 MB/s)
+[20:45:38]     Hunyuan3D-2.1: 70/100 ok=70 fail=0 size=351.4 MB (2.1 MB/s)
+[20:46:05]     Hunyuan3D-2.1: 80/100 ok=80 fail=0 size=407.2 MB (2.1 MB/s)
+[20:46:30]     Hunyuan3D-2.1: 90/100 ok=90 fail=0 size=460.7 MB (2.1 MB/s)
+[20:46:55]     Hunyuan3D-2.1: 100/100 ok=100 fail=0 size=495.8 MB (2.0 MB/s)
+[20:46:55] <<< Hunyuan3D-2.1 done: ok=100 fail=0 total=495.8 MB
+[20:46:55]   cumulative: ok=400 fail=0 size=2.50 GB elapsed=17.0min
+[20:46:55] 
+[5/20] === IM-MA ===
+[20:46:55] >>> IM-MA: 100 files to attempt
+[20:47:05]     IM-MA: 10/100 ok=10 fail=0 size=0.3 MB (0.0 MB/s)
+[20:47:15]     IM-MA: 20/100 ok=20 fail=0 size=0.6 MB (0.0 MB/s)
+[20:47:24]     IM-MA: 30/100 ok=30 fail=0 size=0.8 MB (0.0 MB/s)
+[20:47:32]     IM-MA: 40/100 ok=40 fail=0 size=1.1 MB (0.0 MB/s)
+[20:47:40]     IM-MA: 50/100 ok=50 fail=0 size=1.4 MB (0.0 MB/s)
+[20:47:46]     IM-MA: 60/100 ok=60 fail=0 size=1.6 MB (0.0 MB/s)
+[20:47:52]     IM-MA: 70/100 ok=70 fail=0 size=1.9 MB (0.0 MB/s)
+[20:48:01]     IM-MA: 80/100 ok=80 fail=0 size=2.1 MB (0.0 MB/s)
+[20:48:07]     IM-MA: 90/100 ok=90 fail=0 size=2.4 MB (0.0 MB/s)
+[20:48:14]     IM-MA: 100/100 ok=100 fail=0 size=2.7 MB (0.0 MB/s)
+[20:48:14] <<< IM-MA done: ok=100 fail=0 total=2.7 MB
+[20:48:14]   cumulative: ok=500 fail=0 size=2.50 GB elapsed=18.3min
+[20:48:14] 
+[6/20] === InstantMesh ===
+[20:48:14] >>> InstantMesh: 100 files to attempt
+[20:48:25]     InstantMesh: 10/100 ok=10 fail=0 size=20.5 MB (1.8 MB/s)
+[20:48:46]     InstantMesh: 20/100 ok=20 fail=0 size=36.8 MB (1.1 MB/s)
+[20:49:06]     InstantMesh: 30/100 ok=30 fail=0 size=52.7 MB (1.0 MB/s)
+[20:49:30]     InstantMesh: 40/100 ok=40 fail=0 size=64.8 MB (0.9 MB/s)
+[20:49:48]     InstantMesh: 50/100 ok=50 fail=0 size=85.8 MB (0.9 MB/s)
+[20:50:08]     InstantMesh: 60/100 ok=60 fail=0 size=101.4 MB (0.9 MB/s)
+[20:50:23]     InstantMesh: 70/100 ok=70 fail=0 size=116.2 MB (0.9 MB/s)
+[20:50:41]     InstantMesh: 80/100 ok=80 fail=0 size=132.3 MB (0.9 MB/s)
+[20:51:05]     InstantMesh: 90/100 ok=90 fail=0 size=148.2 MB (0.9 MB/s)
+[20:51:26]     InstantMesh: 100/100 ok=100 fail=0 size=168.4 MB (0.9 MB/s)
+[20:51:26] <<< InstantMesh done: ok=100 fail=0 total=168.4 MB
+[20:51:26]   cumulative: ok=600 fail=0 size=2.67 GB elapsed=21.5min
+[20:51:26] 
+[7/20] === MeshFormer ===
+[20:51:26] >>> MeshFormer [LARGE]: 93 files to attempt
+[20:51:41]     MeshFormer: 5/93 ok=5 fail=0 size=60.6 MB (4.2 MB/s)
+[20:51:54]     MeshFormer: 10/93 ok=10 fail=0 size=123.4 MB (4.4 MB/s)
+[20:52:10]     MeshFormer: 15/93 ok=15 fail=0 size=185.3 MB (4.3 MB/s)
+[20:52:23]     MeshFormer: 20/93 ok=20 fail=0 size=245.9 MB (4.4 MB/s)
+[20:52:37]     MeshFormer: 25/93 ok=25 fail=0 size=319.5 MB (4.5 MB/s)
+[20:52:51]     MeshFormer: 30/93 ok=30 fail=0 size=379.5 MB (4.5 MB/s)
+[20:53:05]     MeshFormer: 35/93 ok=35 fail=0 size=440.1 MB (4.5 MB/s)
+[20:53:18]     MeshFormer: 40/93 ok=40 fail=0 size=501.1 MB (4.5 MB/s)
+[20:53:35]     MeshFormer: 45/93 ok=45 fail=0 size=562.3 MB (4.4 MB/s)
+[20:54:40]     MeshFormer: 50/93 ok=50 fail=0 size=622.0 MB (3.2 MB/s)
+[20:54:53]     MeshFormer: 55/93 ok=55 fail=0 size=683.0 MB (3.3 MB/s)
+[20:55:07]     MeshFormer: 60/93 ok=60 fail=0 size=744.4 MB (3.4 MB/s)
+[20:55:19]     MeshFormer: 65/93 ok=65 fail=0 size=805.4 MB (3.5 MB/s)
+[20:55:54]     MeshFormer: 70/93 ok=70 fail=0 size=865.5 MB (3.2 MB/s)
+[20:56:18]     MeshFormer: 75/93 ok=75 fail=0 size=927.4 MB (3.2 MB/s)
+[20:56:30]     MeshFormer: 80/93 ok=80 fail=0 size=988.6 MB (3.3 MB/s)
+[20:56:44]     MeshFormer: 85/93 ok=85 fail=0 size=1.03 GB (3.3 MB/s)
+[20:56:57]     MeshFormer: 90/93 ok=90 fail=0 size=1.08 GB (3.4 MB/s)
+[20:57:05]     MeshFormer: 93/93 ok=93 fail=0 size=1.12 GB (3.4 MB/s)
+[20:57:05] <<< MeshFormer done: ok=93 fail=0 total=1.12 GB
+[20:57:05]   cumulative: ok=693 fail=0 size=3.78 GB elapsed=27.1min
+[20:57:05] 
+[8/20] === Meshy-5 ===
+[20:57:05] >>> Meshy-5: 100 files to attempt
+[20:57:34]     Meshy-5: 10/100 ok=10 fail=0 size=27.8 MB (1.0 MB/s)
+[20:57:55]     Meshy-5: 20/100 ok=20 fail=0 size=52.1 MB (1.0 MB/s)
+[20:58:17]     Meshy-5: 30/100 ok=30 fail=0 size=76.5 MB (1.1 MB/s)
+[20:58:41]     Meshy-5: 40/100 ok=40 fail=0 size=100.6 MB (1.0 MB/s)
+[20:59:02]     Meshy-5: 50/100 ok=50 fail=0 size=126.9 MB (1.1 MB/s)
+[20:59:23]     Meshy-5: 60/100 ok=60 fail=0 size=154.5 MB (1.1 MB/s)
+[20:59:45]     Meshy-5: 70/100 ok=70 fail=0 size=180.9 MB (1.1 MB/s)
+[21:00:04]     Meshy-5: 80/100 ok=80 fail=0 size=208.1 MB (1.2 MB/s)
+[21:00:26]     Meshy-5: 90/100 ok=90 fail=0 size=232.5 MB (1.2 MB/s)
+[21:00:48]     Meshy-5: 100/100 ok=100 fail=0 size=259.4 MB (1.2 MB/s)
+[21:00:48] <<< Meshy-5 done: ok=100 fail=0 total=259.4 MB
+[21:00:48]   cumulative: ok=793 fail=0 size=4.04 GB elapsed=30.9min
+[21:00:48] 
+[9/20] === Meshy-6 ===
+[21:00:48] >>> Meshy-6 [LARGE]: 100 files to attempt
+[21:01:04]     Meshy-6: 5/100 ok=5 fail=0 size=98.4 MB (6.2 MB/s)
+[21:01:24]     Meshy-6: 10/100 ok=10 fail=0 size=201.8 MB (5.6 MB/s)
+[21:01:40]     Meshy-6: 15/100 ok=15 fail=0 size=281.6 MB (5.4 MB/s)
+[21:01:55]     Meshy-6: 20/100 ok=20 fail=0 size=364.2 MB (5.4 MB/s)
+[21:02:12]     Meshy-6: 25/100 ok=25 fail=0 size=458.6 MB (5.5 MB/s)
+[21:02:28]     Meshy-6: 30/100 ok=30 fail=0 size=542.6 MB (5.4 MB/s)
+[21:02:43]     Meshy-6: 35/100 ok=35 fail=0 size=627.3 MB (5.4 MB/s)
+[21:03:01]     Meshy-6: 40/100 ok=40 fail=0 size=700.7 MB (5.3 MB/s)
+[21:03:18]     Meshy-6: 45/100 ok=45 fail=0 size=801.5 MB (5.3 MB/s)
+[21:03:34]     Meshy-6: 50/100 ok=50 fail=0 size=891.6 MB (5.4 MB/s)
+[21:03:50]     Meshy-6: 55/100 ok=55 fail=0 size=970.7 MB (5.3 MB/s)
+[21:04:06]     Meshy-6: 60/100 ok=60 fail=0 size=1.05 GB (5.4 MB/s)
+[21:04:23]     Meshy-6: 65/100 ok=65 fail=0 size=1.14 GB (5.4 MB/s)
+[21:04:40]     Meshy-6: 70/100 ok=70 fail=0 size=1.23 GB (5.4 MB/s)
+[21:04:56]     Meshy-6: 75/100 ok=75 fail=0 size=1.32 GB (5.5 MB/s)
+[21:05:11]     Meshy-6: 80/100 ok=80 fail=0 size=1.40 GB (5.5 MB/s)
+[21:05:28]     Meshy-6: 85/100 ok=85 fail=0 size=1.49 GB (5.4 MB/s)
+[21:05:44]     Meshy-6: 90/100 ok=90 fail=0 size=1.57 GB (5.4 MB/s)
+[21:06:09]     Meshy-6: 95/100 ok=95 fail=0 size=1.66 GB (5.3 MB/s)
+[21:06:24]     Meshy-6: 100/100 ok=100 fail=0 size=1.73 GB (5.3 MB/s)
+[21:06:24] <<< Meshy-6 done: ok=100 fail=0 total=1.73 GB
+[21:06:24]   cumulative: ok=893 fail=0 size=5.77 GB elapsed=36.5min
+[21:06:24] 
+[10/20] === Real3D ===
+[21:06:24] >>> Real3D: 100 files to attempt
+[21:06:50]     Real3D: 10/100 ok=10 fail=0 size=46.5 MB (1.8 MB/s)
+[21:07:20]     Real3D: 20/100 ok=20 fail=0 size=82.6 MB (1.5 MB/s)
+[21:08:07]     Real3D: 30/100 ok=30 fail=0 size=124.4 MB (1.2 MB/s)
+[21:09:03]     Real3D: 40/100 ok=40 fail=0 size=156.5 MB (1.0 MB/s)
+[21:09:30]     Real3D: 50/100 ok=50 fail=0 size=192.2 MB (1.0 MB/s)
+[21:09:51]     Real3D: 60/100 ok=60 fail=0 size=232.9 MB (1.1 MB/s)
+[21:10:38]     Real3D: 70/100 ok=70 fail=0 size=273.4 MB (1.1 MB/s)
+[21:11:03]     Real3D: 80/100 ok=80 fail=0 size=312.7 MB (1.1 MB/s)
+[21:11:29]     Real3D: 90/100 ok=90 fail=0 size=350.7 MB (1.2 MB/s)
+[21:11:58]     Real3D: 100/100 ok=100 fail=0 size=392.5 MB (1.2 MB/s)
+[21:11:58] <<< Real3D done: ok=100 fail=0 total=392.5 MB
+[21:11:58]   cumulative: ok=993 fail=0 size=6.16 GB elapsed=42.0min
+[21:11:58] 
+[11/20] === SF3D ===
+[21:11:58] >>> SF3D: 100 files to attempt
+[21:12:22]     SF3D: 10/100 ok=10 fail=0 size=11.3 MB (0.5 MB/s)
+[21:12:52]     SF3D: 20/100 ok=20 fail=0 size=20.3 MB (0.4 MB/s)
+[21:13:31]     SF3D: 30/100 ok=30 fail=0 size=29.9 MB (0.3 MB/s)
+[21:14:18]     SF3D: 40/100 ok=40 fail=0 size=37.8 MB (0.3 MB/s)
+[00:49:00] === Download session START | models=20 | cap=100 ===
+[00:49:00] 
+[1/20] === 3DTopia-XL ===
+[00:49:00] >>> 3DTopia-XL: 100 files to attempt
+[00:49:00] <<< 3DTopia-XL done: ok=100 fail=0 total=0.0 MB
+[00:49:00]   cumulative: ok=100 fail=0 size=0.0 MB elapsed=0.0min
+[00:49:00] 
+[2/20] === Hi3DGen ===
+[00:49:00] >>> Hi3DGen [LARGE]: 100 files to attempt
+[00:49:00] <<< Hi3DGen done: ok=100 fail=0 total=0.0 MB
+[00:49:00]   cumulative: ok=200 fail=0 size=0.0 MB elapsed=0.0min
+[00:49:00] 
+[3/20] === Hunyuan3D-2 ===
+[00:49:00] >>> Hunyuan3D-2: 100 files to attempt
+[00:49:00] <<< Hunyuan3D-2 done: ok=100 fail=0 total=0.0 MB
+[00:49:00]   cumulative: ok=300 fail=0 size=0.0 MB elapsed=0.0min
+[00:49:00] 
+[4/20] === Hunyuan3D-2.1 ===
+[00:49:00] >>> Hunyuan3D-2.1: 100 files to attempt
+[00:49:00] <<< Hunyuan3D-2.1 done: ok=100 fail=0 total=0.0 MB
+[00:49:00]   cumulative: ok=400 fail=0 size=0.0 MB elapsed=0.0min
+[00:49:00] 
+[5/20] === IM-MA ===
+[00:49:00] >>> IM-MA: 100 files to attempt
+[00:49:00] <<< IM-MA done: ok=100 fail=0 total=0.0 MB
+[00:49:00]   cumulative: ok=500 fail=0 size=0.0 MB elapsed=0.0min
+[00:49:00] 
+[6/20] === InstantMesh ===
+[00:49:00] >>> InstantMesh: 100 files to attempt
+[00:49:00] <<< InstantMesh done: ok=100 fail=0 total=0.0 MB
+[00:49:00]   cumulative: ok=600 fail=0 size=0.0 MB elapsed=0.0min
+[00:49:00] 
+[7/20] === MeshFormer ===
+[00:49:00] >>> MeshFormer [LARGE]: 93 files to attempt
+[00:49:00] <<< MeshFormer done: ok=93 fail=0 total=0.0 MB
+[00:49:00]   cumulative: ok=693 fail=0 size=0.0 MB elapsed=0.0min
+[00:49:00] 
+[8/20] === Meshy-5 ===
+[00:49:00] >>> Meshy-5: 100 files to attempt
+[00:49:00] <<< Meshy-5 done: ok=100 fail=0 total=0.0 MB
+[00:49:00]   cumulative: ok=793 fail=0 size=0.0 MB elapsed=0.0min
+[00:49:00] 
+[9/20] === Meshy-6 ===
+[00:49:00] >>> Meshy-6 [LARGE]: 100 files to attempt
+[00:49:00] <<< Meshy-6 done: ok=100 fail=0 total=0.0 MB
+[00:49:00]   cumulative: ok=893 fail=0 size=0.0 MB elapsed=0.0min
+[00:49:00] 
+[10/20] === Real3D ===
+[00:49:00] >>> Real3D: 100 files to attempt
+[00:49:00] <<< Real3D done: ok=100 fail=0 total=0.0 MB
+[00:49:00]   cumulative: ok=993 fail=0 size=0.0 MB elapsed=0.0min
+[00:49:00] 
+[11/20] === SF3D ===
+[00:49:00] >>> SF3D: 100 files to attempt
+[00:49:19]     SF3D: 50/100 ok=50 fail=0 size=6.8 MB (0.4 MB/s)
+[00:49:40]     SF3D: 60/100 ok=60 fail=0 size=15.7 MB (0.4 MB/s)
+[00:49:57]     SF3D: 70/100 ok=70 fail=0 size=25.9 MB (0.5 MB/s)
+[00:50:14]     SF3D: 80/100 ok=80 fail=0 size=34.9 MB (0.5 MB/s)
+[00:50:34]     SF3D: 90/100 ok=90 fail=0 size=43.7 MB (0.5 MB/s)
+[00:50:51]     SF3D: 100/100 ok=100 fail=0 size=54.0 MB (0.5 MB/s)
+[00:50:51] <<< SF3D done: ok=100 fail=0 total=54.0 MB
+[00:50:51]   cumulative: ok=1093 fail=0 size=54.0 MB elapsed=1.8min
+[00:50:51] 
+[12/20] === SPAR3D ===
+[00:50:51] >>> SPAR3D: 100 files to attempt
+[00:51:13]     SPAR3D: 10/100 ok=10 fail=0 size=13.7 MB (0.6 MB/s)
+[00:51:34]     SPAR3D: 20/100 ok=20 fail=0 size=24.3 MB (0.6 MB/s)
+[00:51:55]     SPAR3D: 30/100 ok=30 fail=0 size=38.8 MB (0.6 MB/s)
+[00:52:13]     SPAR3D: 40/100 ok=40 fail=0 size=49.4 MB (0.6 MB/s)
+[00:52:27]     SPAR3D: 50/100 ok=50 fail=0 size=61.8 MB (0.6 MB/s)
+[00:52:41]     SPAR3D: 60/100 ok=60 fail=0 size=73.4 MB (0.7 MB/s)
+[00:52:57]     SPAR3D: 70/100 ok=70 fail=0 size=87.1 MB (0.7 MB/s)
+[00:53:07]     SPAR3D: 80/100 ok=80 fail=0 size=98.7 MB (0.7 MB/s)
+[00:53:17]     SPAR3D: 90/100 ok=90 fail=0 size=110.3 MB (0.8 MB/s)
+[00:53:31]     SPAR3D: 100/100 ok=100 fail=0 size=125.4 MB (0.8 MB/s)
+[00:53:31] <<< SPAR3D done: ok=100 fail=0 total=125.4 MB
+[00:53:31]   cumulative: ok=1193 fail=0 size=179.4 MB elapsed=4.5min
+[00:53:31] 
+[13/20] === Strawb3rry ===
+[00:53:31] >>> Strawb3rry [ANON]: 100 files to attempt
+[00:54:01]     Strawb3rry: 10/100 ok=10 fail=0 size=95.2 MB (3.2 MB/s)
+[00:54:27]     Strawb3rry: 20/100 ok=20 fail=0 size=169.4 MB (3.0 MB/s)
+[00:55:00]     Strawb3rry: 30/100 ok=30 fail=0 size=236.9 MB (2.7 MB/s)
+[00:55:24]     Strawb3rry: 40/100 ok=40 fail=0 size=292.2 MB (2.6 MB/s)
+[00:55:52]     Strawb3rry: 50/100 ok=50 fail=0 size=356.8 MB (2.5 MB/s)
+[00:56:19]     Strawb3rry: 60/100 ok=60 fail=0 size=430.8 MB (2.6 MB/s)
+[00:56:47]     Strawb3rry: 70/100 ok=70 fail=0 size=498.1 MB (2.5 MB/s)
+[00:57:16]     Strawb3rry: 80/100 ok=80 fail=0 size=571.8 MB (2.5 MB/s)
+[00:57:45]     Strawb3rry: 90/100 ok=90 fail=0 size=634.1 MB (2.5 MB/s)
+[00:58:14]     Strawb3rry: 100/100 ok=100 fail=0 size=716.7 MB (2.5 MB/s)
+[00:58:14] <<< Strawb3rry done: ok=100 fail=0 total=716.7 MB
+[00:58:14]   cumulative: ok=1293 fail=0 size=896.1 MB elapsed=9.2min
+[00:58:14] 
+[14/20] === Strawberrry ===
+[00:58:14] >>> Strawberrry [ANON]: 100 files to attempt
+[00:58:36]     Strawberrry: 10/100 ok=10 fail=0 size=35.5 MB (1.7 MB/s)
+[00:58:49]     Strawberrry: 20/100 ok=20 fail=0 size=61.4 MB (1.8 MB/s)
+[00:59:06]     Strawberrry: 30/100 ok=30 fail=0 size=93.7 MB (1.8 MB/s)
+[00:59:23]     Strawberrry: 40/100 ok=40 fail=0 size=118.1 MB (1.7 MB/s)
+[00:59:47]     Strawberrry: 50/100 ok=50 fail=0 size=155.6 MB (1.7 MB/s)
+[01:00:09]     Strawberrry: 60/100 ok=60 fail=0 size=192.8 MB (1.7 MB/s)
+[01:00:36]     Strawberrry: 70/100 ok=70 fail=0 size=228.9 MB (1.6 MB/s)
+[01:01:01]     Strawberrry: 80/100 ok=80 fail=0 size=263.6 MB (1.6 MB/s)
+[01:01:21]     Strawberrry: 90/100 ok=90 fail=0 size=296.9 MB (1.6 MB/s)
+[01:01:47]     Strawberrry: 100/100 ok=100 fail=0 size=321.3 MB (1.5 MB/s)
+[01:01:47] <<< Strawberrry done: ok=100 fail=0 total=321.3 MB
+[01:01:47]   cumulative: ok=1393 fail=0 size=1.19 GB elapsed=12.8min
+[01:01:47] 
+[15/20] === TRELLIS ===
+[01:01:47] >>> TRELLIS: 100 files to attempt
+[01:01:58]     TRELLIS: 10/100 ok=10 fail=0 size=20.1 MB (1.9 MB/s)
+[01:02:16]     TRELLIS: 20/100 ok=20 fail=0 size=35.5 MB (1.2 MB/s)
+[01:02:36]     TRELLIS: 30/100 ok=30 fail=0 size=52.6 MB (1.1 MB/s)
+[01:02:54]     TRELLIS: 40/100 ok=40 fail=0 size=66.7 MB (1.0 MB/s)
+[01:03:10]     TRELLIS: 50/100 ok=50 fail=0 size=83.8 MB (1.0 MB/s)
+[01:03:25]     TRELLIS: 60/100 ok=60 fail=0 size=101.1 MB (1.0 MB/s)
+[01:03:38]     TRELLIS: 70/100 ok=70 fail=0 size=117.3 MB (1.1 MB/s)
+[01:03:53]     TRELLIS: 80/100 ok=80 fail=0 size=134.2 MB (1.1 MB/s)
+[01:04:04]     TRELLIS: 90/100 ok=90 fail=0 size=150.8 MB (1.1 MB/s)
+[01:04:17]     TRELLIS: 100/100 ok=100 fail=0 size=165.8 MB (1.1 MB/s)
+[01:04:17] <<< TRELLIS done: ok=100 fail=0 total=165.8 MB
+[01:04:17]   cumulative: ok=1493 fail=0 size=1.35 GB elapsed=15.3min
+[01:04:17] 
+[16/20] === TRELLIS.2-4B ===
+[01:04:17] >>> TRELLIS.2-4B [LARGE]: 100 files to attempt
+[01:04:31]     TRELLIS.2-4B: 5/100 ok=5 fail=0 size=55.3 MB (3.9 MB/s)
+[01:04:46]     TRELLIS.2-4B: 10/100 ok=10 fail=0 size=109.5 MB (3.8 MB/s)
+[01:05:00]     TRELLIS.2-4B: 15/100 ok=15 fail=0 size=156.6 MB (3.7 MB/s)
+[01:05:14]     TRELLIS.2-4B: 20/100 ok=20 fail=0 size=211.4 MB (3.7 MB/s)
+[01:05:29]     TRELLIS.2-4B: 25/100 ok=25 fail=0 size=269.6 MB (3.7 MB/s)
+[01:05:44]     TRELLIS.2-4B: 30/100 ok=30 fail=0 size=329.3 MB (3.8 MB/s)
+[01:06:00]     TRELLIS.2-4B: 35/100 ok=35 fail=0 size=381.9 MB (3.7 MB/s)
+[01:06:15]     TRELLIS.2-4B: 40/100 ok=40 fail=0 size=435.7 MB (3.7 MB/s)
+[01:06:30]     TRELLIS.2-4B: 45/100 ok=45 fail=0 size=499.6 MB (3.8 MB/s)
+[01:06:44]     TRELLIS.2-4B: 50/100 ok=50 fail=0 size=556.6 MB (3.8 MB/s)
+[01:06:59]     TRELLIS.2-4B: 55/100 ok=55 fail=0 size=611.1 MB (3.8 MB/s)
+[01:07:13]     TRELLIS.2-4B: 60/100 ok=60 fail=0 size=669.1 MB (3.8 MB/s)
+[01:07:26]     TRELLIS.2-4B: 65/100 ok=65 fail=0 size=732.7 MB (3.9 MB/s)
+[01:07:54]     TRELLIS.2-4B: 70/100 ok=70 fail=0 size=788.0 MB (3.6 MB/s)
+[01:08:08]     TRELLIS.2-4B: 75/100 ok=75 fail=0 size=842.0 MB (3.7 MB/s)
+[01:08:21]     TRELLIS.2-4B: 80/100 ok=80 fail=0 size=896.1 MB (3.7 MB/s)
+[01:08:36]     TRELLIS.2-4B: 85/100 ok=85 fail=0 size=950.7 MB (3.7 MB/s)
+[01:08:50]     TRELLIS.2-4B: 90/100 ok=90 fail=0 size=1004.2 MB (3.7 MB/s)
+[01:09:06]     TRELLIS.2-4B: 95/100 ok=95 fail=0 size=1.05 GB (3.7 MB/s)
+[01:09:20]     TRELLIS.2-4B: 100/100 ok=100 fail=0 size=1.10 GB (3.7 MB/s)
+[01:09:20] <<< TRELLIS.2-4B done: ok=100 fail=0 total=1.10 GB
+[01:09:20]   cumulative: ok=1593 fail=0 size=2.45 GB elapsed=20.3min
+[01:09:20] 
+[17/20] === TripoSG ===
+[01:09:20] >>> TripoSG [LARGE]: 100 files to attempt
+[01:09:40]     TripoSG: 5/100 ok=5 fail=0 size=205.9 MB (10.0 MB/s)
+[01:10:09]     TripoSG: 10/100 ok=10 fail=0 size=326.6 MB (6.6 MB/s)
+[01:10:26]     TripoSG: 15/100 ok=15 fail=0 size=441.2 MB (6.7 MB/s)
+[01:10:41]     TripoSG: 20/100 ok=20 fail=0 size=560.1 MB (6.9 MB/s)
+[01:10:58]     TripoSG: 25/100 ok=25 fail=0 size=686.1 MB (7.0 MB/s)
+[01:11:13]     TripoSG: 30/100 ok=30 fail=0 size=801.5 MB (7.1 MB/s)
+[01:11:31]     TripoSG: 35/100 ok=35 fail=0 size=908.3 MB (6.9 MB/s)
+[01:11:47]     TripoSG: 40/100 ok=40 fail=0 size=1014.3 MB (6.9 MB/s)
+[01:12:06]     TripoSG: 45/100 ok=45 fail=0 size=1.15 GB (7.1 MB/s)
+[01:12:28]     TripoSG: 50/100 ok=50 fail=0 size=1.34 GB (7.3 MB/s)
+[01:12:43]     TripoSG: 55/100 ok=55 fail=0 size=1.44 GB (7.2 MB/s)
+[01:12:59]     TripoSG: 60/100 ok=60 fail=0 size=1.57 GB (7.3 MB/s)
+[01:13:31]     TripoSG: 65/100 ok=65 fail=0 size=1.67 GB (6.8 MB/s)
+[01:13:46]     TripoSG: 70/100 ok=70 fail=0 size=1.80 GB (6.9 MB/s)
+[01:14:02]     TripoSG: 75/100 ok=75 fail=0 size=1.93 GB (7.0 MB/s)
+[01:14:18]     TripoSG: 80/100 ok=80 fail=0 size=2.05 GB (7.1 MB/s)
+[01:14:33]     TripoSG: 85/100 ok=85 fail=0 size=2.16 GB (7.1 MB/s)
+[01:14:47]     TripoSG: 90/100 ok=90 fail=0 size=2.25 GB (7.0 MB/s)
+[01:15:04]     TripoSG: 95/100 ok=95 fail=0 size=2.40 GB (7.1 MB/s)
+[01:15:23]     TripoSG: 100/100 ok=100 fail=0 size=2.59 GB (7.3 MB/s)
+[01:15:23] <<< TripoSG done: ok=100 fail=0 total=2.59 GB
+[01:15:23]   cumulative: ok=1693 fail=0 size=5.04 GB elapsed=26.4min
+[01:15:23] 
+[18/20] === TripoSR ===
+[01:15:23] >>> TripoSR: 100 files to attempt
+[01:15:36]     TripoSR: 10/100 ok=10 fail=0 size=14.3 MB (1.1 MB/s)
+[01:15:49]     TripoSR: 20/100 ok=20 fail=0 size=27.8 MB (1.1 MB/s)
+[01:16:03]     TripoSR: 30/100 ok=30 fail=0 size=43.2 MB (1.1 MB/s)
+[01:16:11]     TripoSR: 40/100 ok=40 fail=0 size=52.4 MB (1.1 MB/s)
+[01:16:25]     TripoSR: 50/100 ok=50 fail=0 size=65.0 MB (1.1 MB/s)
+[01:16:34]     TripoSR: 60/100 ok=60 fail=0 size=78.1 MB (1.1 MB/s)
+[01:16:43]     TripoSR: 70/100 ok=70 fail=0 size=90.2 MB (1.1 MB/s)
+[01:16:51]     TripoSR: 80/100 ok=80 fail=0 size=102.8 MB (1.2 MB/s)
+[01:17:02]     TripoSR: 90/100 ok=90 fail=0 size=114.3 MB (1.2 MB/s)
+[01:17:16]     TripoSR: 100/100 ok=100 fail=0 size=127.2 MB (1.1 MB/s)
+[01:17:16] <<< TripoSR done: ok=100 fail=0 total=127.2 MB
+[01:17:16]   cumulative: ok=1793 fail=0 size=5.16 GB elapsed=28.3min
+[01:17:16] 
+[19/20] === Unique3D ===
+[01:17:16] >>> Unique3D [LARGE]: 100 files to attempt
+[01:17:33]     Unique3D: 5/100 ok=5 fail=0 size=81.9 MB (4.9 MB/s)
+[01:17:49]     Unique3D: 10/100 ok=10 fail=0 size=140.1 MB (4.3 MB/s)
+[01:18:04]     Unique3D: 15/100 ok=15 fail=0 size=195.3 MB (4.1 MB/s)
+[01:18:17]     Unique3D: 20/100 ok=20 fail=0 size=261.6 MB (4.3 MB/s)
+/usr/bin/bash: line 1: conda: command not found
+[09:40:51] === Download session START | models=1 | cap=100 ===
+[09:40:51] 
+[1/1] === Unique3D ===
+[09:40:51] >>> Unique3D [LARGE]: 100 files to attempt
+[09:41:02]     Unique3D: 25/100 ok=25 fail=0 size=42.2 MB (4.0 MB/s)
+[09:41:17]     Unique3D: 30/100 ok=30 fail=0 size=112.8 MB (4.4 MB/s)
+[09:41:32]     Unique3D: 35/100 ok=35 fail=0 size=168.6 MB (4.1 MB/s)
+[09:41:47]     Unique3D: 40/100 ok=40 fail=0 size=220.2 MB (4.0 MB/s)
+[09:42:02]     Unique3D: 45/100 ok=45 fail=0 size=276.0 MB (3.9 MB/s)
+[09:42:17]     Unique3D: 50/100 ok=50 fail=0 size=332.5 MB (3.9 MB/s)
+[09:42:32]     Unique3D: 55/100 ok=55 fail=0 size=391.0 MB (3.9 MB/s)
+[09:42:47]     Unique3D: 60/100 ok=60 fail=0 size=452.9 MB (3.9 MB/s)
+[09:43:02]     Unique3D: 65/100 ok=65 fail=0 size=516.3 MB (3.9 MB/s)
+[09:43:17]     Unique3D: 70/100 ok=70 fail=0 size=585.9 MB (4.0 MB/s)
+[09:43:33]     Unique3D: 75/100 ok=75 fail=0 size=660.2 MB (4.1 MB/s)
+[09:43:47]     Unique3D: 80/100 ok=80 fail=0 size=722.8 MB (4.1 MB/s)
+[09:44:03]     Unique3D: 85/100 ok=85 fail=0 size=792.2 MB (4.1 MB/s)
+[09:44:18]     Unique3D: 90/100 ok=90 fail=0 size=853.1 MB (4.1 MB/s)
+[09:44:34]     Unique3D: 95/100 ok=95 fail=0 size=916.1 MB (4.1 MB/s)
+[09:44:49]     Unique3D: 100/100 ok=100 fail=0 size=985.7 MB (4.2 MB/s)
+[09:44:49] <<< Unique3D done: ok=100 fail=0 total=985.7 MB
+[09:44:49]   cumulative: ok=100 fail=0 size=985.7 MB elapsed=4.0min
+[09:44:49] 
+=== Download session END === ok=100 fail=0 total=985.7 MB
+[11:56:19] === Download session START | models=1 | cap=100 ===
+[11:56:19] 
+[1/1] === Zaohaowu3D ===
+[11:56:19] >>> Zaohaowu3D [LARGE]: 100 files to attempt
+[11:56:35]     Zaohaowu3D: 5/100 ok=5 fail=0 size=85.8 MB (5.4 MB/s)
+[11:56:51]     Zaohaowu3D: 10/100 ok=10 fail=0 size=170.3 MB (5.4 MB/s)
+[11:57:07]     Zaohaowu3D: 15/100 ok=15 fail=0 size=252.6 MB (5.3 MB/s)
+[11:57:21]     Zaohaowu3D: 20/100 ok=20 fail=0 size=332.7 MB (5.4 MB/s)
+[11:57:37]     Zaohaowu3D: 25/100 ok=25 fail=0 size=413.7 MB (5.4 MB/s)
+[11:57:52]     Zaohaowu3D: 30/100 ok=30 fail=0 size=493.7 MB (5.3 MB/s)
+[11:58:07]     Zaohaowu3D: 35/100 ok=35 fail=0 size=566.9 MB (5.3 MB/s)
+[11:58:22]     Zaohaowu3D: 40/100 ok=40 fail=0 size=645.3 MB (5.3 MB/s)
+[11:58:38]     Zaohaowu3D: 45/100 ok=45 fail=0 size=721.5 MB (5.2 MB/s)
+[11:58:54]     Zaohaowu3D: 50/100 ok=50 fail=0 size=803.3 MB (5.2 MB/s)
+[11:59:09]     Zaohaowu3D: 55/100 ok=55 fail=0 size=883.1 MB (5.2 MB/s)
+[11:59:25]     Zaohaowu3D: 60/100 ok=60 fail=0 size=965.8 MB (5.2 MB/s)
+[11:59:40]     Zaohaowu3D: 65/100 ok=65 fail=0 size=1.02 GB (5.2 MB/s)
+[11:59:56]     Zaohaowu3D: 70/100 ok=70 fail=0 size=1.10 GB (5.2 MB/s)
+[12:00:11]     Zaohaowu3D: 75/100 ok=75 fail=0 size=1.18 GB (5.2 MB/s)
+[12:00:26]     Zaohaowu3D: 80/100 ok=80 fail=0 size=1.26 GB (5.2 MB/s)
+[12:00:41]     Zaohaowu3D: 85/100 ok=85 fail=0 size=1.34 GB (5.2 MB/s)
+[12:00:57]     Zaohaowu3D: 90/100 ok=90 fail=0 size=1.42 GB (5.2 MB/s)
+[12:01:11]     Zaohaowu3D: 95/100 ok=95 fail=0 size=1.50 GB (5.3 MB/s)
+[12:01:27]     Zaohaowu3D: 100/100 ok=100 fail=0 size=1.57 GB (5.2 MB/s)
+[12:01:27] <<< Zaohaowu3D done: ok=100 fail=0 total=1.57 GB
+[12:01:27]   cumulative: ok=100 fail=0 size=1.57 GB elapsed=5.1min
+[12:01:27] 
+=== Download session END === ok=100 fail=0 total=1.57 GB

@@ -1,0 +1,175 @@
+%%
+%% ``kcgs'' LaTeX style file.
+%% - based on 'acmsiggraph' class (acmsiggraph.cls).
+%% - for korean and english titles, authur names, 
+%%   also korean and english abstracts and keywords.
+%%
+%% - 1st version 2007/08/21 Hyunjun Lee (crowlove@postech.ac.kr)
+%% - 2nd version 2009/03/11 Hyunjun Lee
+%% - 3rd version 2015/03/31 Bumki Kim (bumkikim@kaist.ac.kr)
+%%
+
+\renewcommand{\ps@plain}%
+	{%
+	\renewcommand{\@oddhead}{}%
+	\renewcommand{\@oddfoot}{}%
+
+	\renewcommand{\@evenhead}{\@oddhead}%
+	\renewcommand{\@evenfoot}{\@oddfoot}%
+	}
+	
+\renewcommand{\ps@empty}%
+	{%
+	\renewcommand{\@oddhead}{}%
+	\renewcommand{\@oddfoot}{}%
+
+	\renewcommand{\@evenhead}{\@oddhead}%
+	\renewcommand{\@evenfoot}{\@oddfoot}%
+	}
+
+% no page numbers - they are added in production
+
+\pagestyle{plain}
+
+\renewcommand{\abstractname}{요  약}
+\newcommand{\enabstractname}{Abstract}
+\renewcommand{\figurename}{Figure}
+\renewcommand{\tablename}{Table}
+\renewcommand{\refname}{References}
+
+\newcommand{\kcgs@empty}{}
+
+\newcommand{\kcgs@affiliation}{}
+\newcommand{\affiliation}[1]{\renewcommand{\kcgs@affiliation}{#1}}
+
+\newcommand{\kcgs@authoremail}{}
+\newcommand{\authoremail}[1]{\renewcommand{\kcgs@authoremail}{#1}}
+
+\newcommand{\kcgs@format}{}
+\newcommand{\format}[1]{\renewcommand{\kcgs@format}{#1}}
+\newcommand{\acmformat}[1]{\format{#1}}
+
+\newcommand{\kcgs@teaser}{}
+\newcommand{\teaser}[1]{\renewcommand{\kcgs@teaser}{#1}}
+
+\newcommand{\kcgs@entitle}{}
+\newcommand{\entitle}[1]{\renewcommand{\kcgs@entitle}{#1}}
+
+\newcommand{\kcgs@enauthor}{}
+\newcommand{\enauthor}[1]{\renewcommand{\kcgs@enauthor}{#1}}
+
+\newcommand{\kcgs@enaffiliation}{}
+\newcommand{\enaffiliation}[1]{\renewcommand{\kcgs@enaffiliation}{#1}}
+
+\newcommand{\kcgs@keywords}{}
+\newcommand{\keywords}[1]{\renewcommand{\kcgs@keywords}{#1}}
+
+\newcommand{\kcgs@enkeywords}{}
+\newcommand{\enkeywords}[1]{\renewcommand{\kcgs@enkeywords}{#1}}
+
+\newlength{\titlespace}
+\setlength{\titlespace}{0.25in}
+
+\newlength{\teaserspace}
+\setlength{\teaserspace}{0.25in}
+
+\renewcommand{\@maketitle}{%
+    \begin{center}%
+        {\LARGE\bf \@title \par}%
+        \vspace{1\baselineskip}%
+        \large
+        \begin{tabular}[t]{c}%
+            \@author
+        \end{tabular}\par%
+        \ifx\kcgs@affiliation\kcgs@empty \else%
+            \vspace{0.5\baselineskip}%
+            {\normalsize \kcgs@affiliation\par}%
+        \fi%
+        \ifx\kcgs@authoremail\kcgs@empty \else%
+        	\vspace{0.2\baselineskip}
+        	{\small \kcgs@authoremail\par}%
+        \fi%
+        \vspace{1\baselineskip}%
+        {\Large\bf \kcgs@entitle \par}%
+        \vspace{1\baselineskip}%
+        \large
+        \begin{tabular}[t]{c}%
+        	\kcgs@enauthor
+        \end{tabular}\par
+        \ifx\kcgs@enaffiliation\kcgs@empty \else%
+        	\vspace	{0.5\baselineskip}%
+            {\normalsize \kcgs@enaffiliation\par}%
+        \fi%
+        \vspace{\titlespace}%
+        \ifx\kcgs@teaser\kcgs@empty \else%
+            \begingroup%
+                \def\@captype{figure}%
+                \kcgs@teaser%
+            \endgroup\par%
+        \fi%
+        
+        %% abstract section
+        \begin{center}
+        \abstract@produce
+        \end{center}
+        
+        %% keywords
+        \minipage{.95\textwidth}
+        \normalsize
+        \keywordlist
+        \endminipage
+		
+    \end{center}\par
+    
+    \vspace{\titlespace}
+}
+
+\newbox\enabstractbox
+\newenvironment{enabstract}{%
+	\lrbox\enabstractbox
+		\minipage{.95\textwidth}%
+		\centerline{\bfseries\large\enabstractname}%
+		%\bigskip\small\it
+		\bigskip
+  }{%
+	\endminipage\endlrbox}
+
+\newbox\abstractbox
+\renewenvironment{abstract}{%
+	\lrbox\abstractbox
+		\minipage{.95\textwidth}%
+		\centerline{\bfseries\large\abstractname}%
+		%\bigskip\small\it
+		\bigskip
+  }{%
+	\endminipage\endlrbox}
+
+\def\abstract@produce{%
+	\leavevmode\box\abstractbox\par
+	\vspace{\titlespace}
+	\leavevmode\box\enabstractbox\par
+}
+
+\let\kcgs@origmaketitle\maketitle
+\let\kcgs@origand\and
+\renewcommand{\maketitle}{%
+    \let\kcgs@title\@title%
+    \let\kcgs@author\@author%
+    \kcgs@origmaketitle%
+    \thispagestyle{empty}%
+}
+
+%\newtoks\kcgs@abs
+
+\newcommand{\keywordlist}{%
+    \vspace{0.5\baselineskip}%
+    \par\noindent \textbf{키워드: } \kcgs@keywords \\%
+    \textbf{Keywords: } \kcgs@enkeywords%
+}
+
+\renewcommand{\footnoterule}{%
+    \kern-3pt
+    \hrule width 0.45\columnwidth
+    \kern 2.6pt}
+
+% End of file 'kcgs.sty'.

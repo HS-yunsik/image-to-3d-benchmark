@@ -215,7 +215,7 @@ def main() -> None:
 
     seen = already_in_manifest()
     if seen:
-        print(f"[download] Resuming — {len(seen)} files already in manifest", flush=True)
+        print(f"[download] Resuming - {len(seen)} files already in manifest", flush=True)
 
     print(f"[download] Listing repo files (one network call) ...", flush=True)
     all_files = list_repo_files(REPO_ID, repo_type=REPO_TYPE)
