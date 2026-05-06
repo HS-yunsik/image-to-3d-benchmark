@@ -87,10 +87,10 @@ Dimension scores are computed as percentile ranks within the 16 ELO-matched mode
 │   ├── topology.py         # Triangle/quad/ngon ratio
 │   └── scale.py            # Vertex/face count
 ├── scripts/
+│   ├── figures/            # Figure & table generation scripts
 │   ├── download_all.py     # Download all meshes from HuggingFace
 │   ├── analyze_v5.py       # Dimension scoring + Spearman correlation
 │   ├── fetch_elo.py        # ELO score collection
-│   ├── make_paper_figures.py
 │   └── ...
 ├── run_metrics.py          # Entry point: compute all metrics → CSV
 ├── data/
@@ -125,19 +125,9 @@ python scripts/analyze_v5.py
 
 ---
 
-## Citation
+## Acknowledgements
 
-If you use this benchmark, please also cite:
-
-```bibtex
-@misc{ebert20253darena,
-  title={3D Arena: An Open Platform for Generative 3D Evaluation},
-  author={Dylan Ebert},
-  year={2025},
-  eprint={2506.18787},
-  archivePrefix={arXiv}
-}
-```
+This benchmark uses mesh outputs from the [3D Arena](https://huggingface.co/datasets/3d-arena/3d-arena) dataset (Ebert, 2025, arXiv:2506.18787), released under the MIT License.
 
 ---
 
