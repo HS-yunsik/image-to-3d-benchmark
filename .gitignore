@@ -1,6 +1,12 @@
 # Bulk downloaded mesh data (managed by HF cache)
 meshes/
 
+# Thumbnail images (re-downloadable from HuggingFace)
+data/3darena_thumbs/
+
+# Paper drafts (kept locally only)
+paper/
+
 # Local IDE / Claude Code workspace settings
 .claude/
 
@@ -21,4 +27,4 @@ Thumbs.db
 output/scratch/
 
 # Background-task install logs (regenerable)
-logs/pymeshlab_install.log
+logs/

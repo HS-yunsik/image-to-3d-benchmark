@@ -1,0 +1,7 @@
+metric,r,p_value,n,significant
+D1 Geometry,-0.022091,0.935278,16,False
+D2 UV,0.460548,0.072619,16,False
+D3 PBR,0.415402,0.109573,16,False
+Total (D1+D2+D3),0.664706,0.004967,16,True
+texture_resolution,0.578294,0.018946,16,True
+tex_res_n9,0.710047,0.032098,9,True
